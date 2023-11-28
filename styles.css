@@ -1,0 +1,94 @@
+
+.h1 {
+    position: absolute;
+    left: 42%;
+    top: 5%;
+    font-family: sans-serif;
+    font-size: 50px;
+
+}
+
+#rectangle {
+    position: absolute;
+    left:29%;
+    top: 19%;
+    width: 300px;
+    height: 650px;
+    background: rgb(0, 0, 0);
+}
+
+#graybox{
+    position: absolute;
+    left: 45%;
+    top: 24%;
+    width: 500px;
+    height: 500px;
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#titulo{
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+#texto{
+    display: block;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 30px;    
+}
+
+#posiçãoLogo{
+    position: absolute;
+    left: 20%;
+    top: 2%;
+
+}
+
+#posiçãoImagem{
+    filter: drop-shadow(2px 2px 10px black);
+    position:absolute;
+    left: 22%;  
+    top:28%;   
+}
+
+button{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    padding: 8px 12px 8px 12px;
+    cursor:pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(202, 16, 16);
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#textoEscondido{
+    display:none;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 30px;   
+}
+
+#voltar{
+    position: absolute;
+    left: 10%;
+    top: 88%;
+}
+
+#chat{
+    position: absolute;
+    left: 66%;
+    top: 82%;
+    cursor:pointer;
+}
+
+#seta{
+    position: absolute;
+    left: 55%;
+    top: 90%;
+}
